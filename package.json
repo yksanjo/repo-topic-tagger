@@ -1,0 +1,12 @@
+{
+  "name": "repo-topic-tagger",
+  "version": "1.0.0",
+  "description": "Auto-tag GitHub repositories with relevant topics",
+  "main": "src/index.js",
+  "bin": { "gh-tag": "./src/index.js" },
+  "scripts": { "start": "node src/index.js" },
+  "keywords": ["github", "topics", "tags"],
+  "author": "Yoshikondo",
+  "license": "MIT",
+  "dependencies": { "chalk": "^4.1.2" }
+}
